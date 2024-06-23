@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    border-radius: 15px;
+    box-shadow: 0 20px 30px rgba(40, 35, 60, 0.5);
+}
+
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.search-box input {
+    background-color: white;
+    padding: 10px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 10px;
+    width: 25%;
+    background-color: darkgray;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    border-radius: 20px;
+
+}
+
+.result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.result button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.result .details {
+    display: flex;
+    gap: 10px;
+    color: rgb(196, 195, 195);
+    margin: 10px;
+    font-size: 14px;
+}
+
+.word-example {
+    color: darkgrey;
+    font-style: italic;
+    border-left: 3px solid black;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.error {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
